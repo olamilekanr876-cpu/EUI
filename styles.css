@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue1: #057ACB;
+    --deepBlue: #1875F0;
+    --blackText: #000000;
+    --whiteText: #FFFFFF;
+    --dmFont: "DM Sans", sans-serif;
+
+}
+
+
+body {
+    width: 100%;
+    height: 7092px;
+    background-color: skyblue;
+}
+
+
+main {
+    height: 6658px;
+    width: 100%;
+
+
+}
+
+footer div {
+    width: 820px;
+height: 214px;
+
+opacity: 1;
+gap: 16px;
+display: flex;
+flex-direction: column;
+border: 1px solid white;
+
+}
+
+footer div h1{
+font-family: var(--dmFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 64px;
+
+line-height: 110.00000000000001%;
+letter-spacing: -4%;
+/* text-align: center; */
+color: var(--whiteText);
+
+}
+
+#hero-section {
+    height: 891px;
+    width: 100%;
+    background-color: var(--blue1);
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+
+
+
+
+
+
+}
+
+footer {
+    height: 434px;
+    width: 100%;
+    background-color: var(--blackText);
+}
+
+header {
+    width: calc(100% - 200px);
+    height: 69.08px;
+    top: 20px;
+    left: 100px;
+    padding: 10px 16px;
+    border-color: var(--whiteText);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    color: var(--whiteText);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
+
+
+
+
+}
+
+
+
+header img {
+    width: 94;
+    height: 49.080589294433594;
+
+    opacity: 1;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: var(--dmFont);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    color: var(--whiteText);
+    text-decoration: none;
+
+}
+
+header button {
+    width: 145px;
+    height: 48px;
+    border: none;
+    opacity: 1;
+    gap: 8px;
+    border-radius: 48px;
+    padding: 8px 16px;
+    background-color: var(--deepBlue);
+    color: var(--whiteText);
+    font-family: DM Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    text-align: center;
+
+}
