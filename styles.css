@@ -48,7 +48,7 @@ font-size: 64px;
 
 line-height: 110.00000000000001%;
 letter-spacing: -4%;
-/* text-align: center; */
+text-align: center;
 color: var(--whiteText);
 
 }
@@ -60,13 +60,99 @@ color: var(--whiteText);
     display: flex;
     flex-direction: column;
     padding: 0 100px;
+}
+#hero-section2 {
+   
+display: flex;
+flex-direction: column;
+width: 820px;
+height: 296px;
+opacity: 1;
+margin-top: 230px;
+justify-content: center;
+margin-left: 155px;
+margin-right: 155px;
+gap: 40px;
 
+}
 
-
-
+#hero-button{
+display: flex;
+justify-content: center;
+width: 328px;
+height: 42px;
+gap: 16px;
+top: 50px;
+position: relative;
+left: 15rem;
 
 
 }
+ .button1{
+ background-color: var(--whiteText);
+width: 160;
+height: 42;
+opacity: 1;
+gap: 8px;
+border-radius: 48px;
+padding-top: 14px;
+padding-right: 20px;
+padding-bottom: 14px;
+padding-left: 20px;
+color:var(--deepBlue);
+
+}
+.button2{
+    width: 152px;
+    background-color: var(--blue1);
+    color: var(--whiteText);
+height: 42px;
+angle: 0 deg;
+opacity: 1;
+gap: 8px;
+border-radius: 48px;
+border-width: 1px;
+padding-top: 14px;
+padding-right: 20px;
+padding-bottom: 14px;
+padding-left: 20px;
+
+}
+
+
+#hero-section div h1{
+font-family:var(--dmFont);
+font-weight: 500;
+font-style: Medium;
+font-size: 64px;
+line-height: 110.00000000000001%;
+letter-spacing: -4%;
+text-align: center;
+
+
+}
+#hero-section div p{
+font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: -3%;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     height: 434px;
