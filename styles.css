@@ -16,6 +16,8 @@
     --otherBlue:#3996d5;
     --fadedWhite:#DFE0E5;
     --light-ash:#808080;
+    --otherblack:#0B1034;
+    --bluetext:#5C5F77;
 
 
 
@@ -364,16 +366,46 @@ border-radius: 10px;
     width: 100%;
 height: 1708px;
 text-align: center;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
 padding: 0 52px ;
 background-color: #F6FBFE;
 
 
 }
+
+#key-p-act h1{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: -3%;
+text-align: center;
+color: var(--otherblack);
+
+
+}
+
+#key-p-act p{
+    font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 19px;
+line-height: 160%;
+letter-spacing: -2%;
+text-align: center;
+color: var(--bluetext);
+
+}
+
 #key-p-act div{
     width: 554px;
 height: 586px;
 opacity: 1;
 gap: 26px;
+
 
 }
 #key-p-act img{
@@ -390,18 +422,220 @@ border-radius: 20px;
     display: flex;
 }
 
-
-
-
-
-
-
-
-/* #box3-container{ */
-    /* width: 1083px;
-height: 563px;
+#key-p-act button{
+    width: 219px;
+height: 42px;
 opacity: 1;
-gap: 25px; */
+gap: 8px;
+border-radius: 48px;
+border-width: 1px;
+background-color: var(--blue1);
+color: var(--fadedWhite);
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.box-1 h1{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0%;
+color: var(--otherblack);
+
+}
+
+.box-1 p{
+    font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0%;
+color: var(--bluetext);
+text-align: start;
+
+
+}
+.box-2 h1{
+       font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0%;
+color: var(--otherblack);
+}
+.box-2 p{
+      font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0%;
+color: var(--bluetext);
+text-align: start;
+
+}
+
+.box-2{
+      display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#join-section{
+    width: 100%;
+height: 534px;
+opacity: 1;
+background-color: var(--blue1);
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding:0 76.5px;
+gap: 40px;
+
+}
+
+#join-section h1{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 56px;
+line-height: 110.00000000000001%;
+letter-spacing: -4%;
+text-align: center;
+color: var(--whiteText);
+
+}
+
+#join-section p{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: -3%;
+text-align: center;
+color: var(--fadedWhite);
+
+}
+#join-section div{
+    width: 576px;
+height: 48px;
+opacity: 1;
+display: flex;
+gap: 40px;
+justify-content: center;
+
+
+}
+
+.jat{
+    width: 268px;
+height: 48px;
+opacity: 1;
+border: none;
+gap: 8px;
+border-radius: 48px;
+background-color: var(--whiteText);
+color: var(--blue1);
+font-family: DM Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -4%;
+text-align: center;
+
+}
+
+.e-s{
+    width: 268px;
+height: 48px;
+opacity: 1;
+gap: 8px;
+border-radius: 48px;
+border-width: 1px;
+color:var(--whiteText) ;
+border: 1px solid #FFFFFF;
+background-color:var(--blue1);
+font-family: DM Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -4%;
+text-align: center;
+
+
+}
+
+#success-stories{
+    width: 100%;
+height: 757px;
+opacity: 1;
+background-color:var(--whitesmoke);
+
+
+}
+
+#success-stories h1{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: -3%;
+text-align: center;
+
+}
+
+#success-stories p{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: -2%;
+text-align: center;
+color: var(--bluetext);
+
+
+}
+.images{
+    width: 100%;
+height: 416px;
+opacity: 1;
+display: flex;
+gap: 48px;
+
+}
+.images div img{
+    width: 375px;
+height: 280px;
+opacity: 1;
+border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
