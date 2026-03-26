@@ -651,6 +651,13 @@ margin-right: 155px; */
 }
 
 
+@media (max-width:600px) {
+   header nav {
+    display: none;
+   }
+}
+
+
 
 
 
