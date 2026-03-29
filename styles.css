@@ -795,6 +795,13 @@ nav ul {
   list-style: none;
 }
 
+nav ul i {
+  color:gold;
+  font-size: 1.5rem;
+ 
+}
+
+
 nav a {
   color: white;
   text-decoration: none;
@@ -846,7 +853,6 @@ button {
 
 /* MOBILE */
 @media (max-width: 900px) {
-
   .menu-toggle {
     display: block;
   }

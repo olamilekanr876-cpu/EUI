@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="9" cy="9" r="9" transform="translate(517 183)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_5" data-name="Path 5" d="M0,0H27V18H0Z"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-517 -183)" clip-path="url(#clip-path)">
+    <g id="Flag_of_Tanzania" transform="translate(512.5 183)">
+      <path id="Path_1" data-name="Path 1" d="M0,18V0H27Z" fill="#1eb53a"/>
+      <path id="Path_2" data-name="Path 2" d="M27,0V18H0Z" fill="#00a3dd"/>
+      <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path-2)">
+        <path id="Path_3" data-name="Path 3" d="M0,18,27,0" fill="none" stroke="#fcd116" stroke-width="4.75"/>
+        <path id="Path_4" data-name="Path 4" d="M0,18,27,0" fill="none" stroke="#000" stroke-width="3.25"/>
+      </g>
+    </g>
+  </g>
+</svg>
