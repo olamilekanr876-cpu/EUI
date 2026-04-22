@@ -851,6 +851,173 @@ button {
   border: none;
 }
 
+#FAQ{
+    width: 97%;
+    height: 704px;
+    opacity: 1;
+    display: flex;
+    background: #F6FBFE;
+    justify-content: space-between;
+    gap: 48px;
+}
+.BoX-1{
+    
+height: 144px;
+opacity: 1;
+gap: 16px;
+
+
+}
+.BoX-2{
+    Width:100%;
+height: 568px;
+opacity: 1;
+gap: 16px;
+border-radius: 24px;
+background: #FAFAFA;
+ display: flex;
+flex-direction: column; 
+
+}
+
+.elipse{
+    width: 52px;
+height: 20px;
+opacity: 1;
+gap: 8px;
+border-radius: 20px;
+padding: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.elipse img{
+    width: 8px;
+height: 8px;
+opacity: 1;
+background: #057ACB;
+
+}
+.elipse p{
+    font-family: DM Sans;
+font-weight: 300;
+font-style: Light;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: -3%;
+
+}
+
+#FAQ h1{
+    font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: -3%;
+text-transform: capitalize;
+color: #0B1034;
+
+
+}
+#FAQ p{
+    font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -3%;
+
+}
+
+.HOE h1{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+
+line-height: 100%;
+letter-spacing: -3%;
+
+
+}
+
+.HOE{
+    width: 637px;
+height: 184px;
+opacity: 1;
+gap: 16px;
+border-radius: 14px;
+border-width: 1px;
+ background: #FFFFFF;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ padding: 20px, 24px;
+
+}
+.HOE div{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px;
+     background: #FFFFFF;
+}
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    width: 637px;
+height: 64px;
+opacity: 1;
+border-radius: 14px;
+border-width: 1px;
+
+
+
+
+}
+.line-2{
+      width: 637px;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+
+
+}
+.line-3{
+      width: 637px;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+.line-4{
+      width: 637px;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.line-1 h1{
+    font-family: DM Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: -3%;
+color:red;
+
+
+} 
+
+
 /* MOBILE */
 @media (max-width: 900px) {
   .menu-toggle {
